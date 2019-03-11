@@ -4,11 +4,10 @@ let inputSearch = document.getElementById("job-search");
 let btnSearch = document.getElementById("btn-search");
 let nodeSearch = document.getElementsByClassName("search-below")[0];
 
+let deskripsi = document.getElementById("deskripsi");
+
 
 // Search Input Behavior
-
-
-// console.log(dataSkill[0])
 
 inputSearch.addEventListener("keypress", function (e) {
 
@@ -43,3 +42,5 @@ btnSearch.addEventListener("click", function (e) {
     }
 
 })
+
+

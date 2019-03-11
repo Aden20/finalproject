@@ -51,7 +51,75 @@
                 </div>
             </nav>
         </div>
-
+        <div class="container-fluid bg-dark">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-12 py-5">
+                        <h1 class="text-center text-light py-5" id="detail-pekerjaan">Web Developer</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-12 text-center my-4">
+                    <h4 class="mb-4">Apa Itu Web Developer ?</h4>
+                    <p id="deskripsi">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo facere hic vitae, nulla dolores id
+                        deleniti quas animi, perferendis cum harum culpa enim ex? Asperiores odit repellendus fugit
+                        minima tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam porro sapiente
+                        dolore qui assumenda quis ad voluptatum distinctio, doloremque amet minima, nam provident! Illum
+                        earum quasi sunt asperiores. Inventore, officia.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center my-4">
+                    <h4 class="mb-4">Alur Pekerjaan</h4>
+                    <p id="role-pekerjaan">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo facere hic vitae, nulla dolores id
+                        deleniti quas animi, perferendis cum harum culpa enim ex? Asperiores odit repellendus fugit
+                        minima tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam porro sapiente
+                        dolore qui assumenda quis ad voluptatum distinctio, doloremque amet minima, nam provident! Illum
+                        earum quasi sunt asperiores. Inventore, officia.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center my-4">
+                    <h4 class="mb-4">Tempat Kerja</h4>
+                    <p id="tempat-kerja">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo facere hic vitae, nulla dolores id
+                        deleniti quas animi, perferendis cum harum culpa enim ex? Asperiores odit repellendus fugit
+                        minima tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam porro sapiente
+                        dolore qui assumenda quis ad voluptatum distinctio, doloremque amet minima, nam provident! Illum
+                        earum quasi sunt asperiores. Inventore, officia.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center my-4">
+                    <h4 class="mb-4">Rentang Gaji</h4>
+                    <p id="rentang-gaji">
+                        Rp. 4.000.0000 - Rp. 35.000.000
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid bg-success text-light">
+            <div class="container py-5">
+                <div class="row justify-content-center py-5">
+                    <div class="col-sm-5 col-8 text-center py-5">
+                        <h1>Belajar Sekarang</h1>
+                        <a href="belajar.html"
+                            class="btn btn-light btn-lg btn-block my-4 py-3 rounded-pill shadow hvr-icon-drop wow bounceIn"
+                            data-wow-offset="5" data-wow-duration="1s" data-wow-delay="1s"><i
+                                class="fas fa-plus hvr-icon"></i>
+                            Mulai</a>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="container-fluid bg-dark text-light">
             <div class="row">
                 <div class="col-12">
@@ -61,6 +129,24 @@
             </div>
         </div>
     </div>
+
+    <script src="js/skill.js"></script>
+    <script>
+        let dataSkill = skill.pekerjaan;
+        let deskripsi = document.getElementById("deskripsi");
+        let rolePekerjaan = document.getElementById("role-pekerjaan");
+        let tempatKerja = document.getElementById("tempat-kerja");
+        let rentangGaji = document.getElementById("rentang-gaji");
+        let readDetail = document.getElementById("detail-pekerjaan");
+
+        if (readDetail.innerHTML === "Web Developer") {
+            deskripsi.innerHTML = dataSkill[0].deskripsi;
+            rolePekerjaan.innerHTML = dataSkill[0].role;
+            tempatKerja.innerHTML = dataSkill[0].tempat;
+            rentangGaji.innerHTML = dataSkill[0].rentang;
+        }
+
+    </script>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

@@ -2,10 +2,10 @@ var skill = {
     "pekerjaan": [
         {
             "nama": "web developer",
-            "deskripsi": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis natus quae distinctio voluptatem neque ad expedita officia. Harum, mollitia aut, quam nostrum perferendis, voluptatum ducimus expedita numquam nihil rerum enim!",
-            "role-pekerjaan": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis corrupti, voluptates consequatur minus repellendus a harum consequuntur distinctio maiores veniam similique commodi natus labore ipsum animi ratione minima odit? Quaerat!",
-            "tempat-kerja": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis corrupti, voluptates consequatur minus repellendus a harum consequuntur distinctio maiores veniam similique commodi natus labore ipsum animi ratione minima odit? Quaerat!",
-            "rentang-gaji": "Rp. 4.000.000 - 35.000.000",
+            "deskripsi": "Pengembangan web adalah istilah yang luas untuk pekerjaan yang terlibat dalam mengembangkan suatu situs web untuk internet ( World Wide Web ) atau intranet (jaringan pribadi). Hal ini dapat mencakup desain web , pengembangan konten web , penghubung klien, sisi klien / server-side scripting , web server dan keamanan jaringan konfigurasi, dan e-commerce pembangunan. Namun, kalangan profesional web, “pengembangan web” biasanya merujuk pada aspek non-desain utama dari membangun situs web: menulis markup dan coding . Pengembangan web dapat berkisar dari mengembangkan halaman statis sederhana tunggal teks biasa ke berbasis web yang paling kompleks aplikasi internet , bisnis elektronik , atau layanan jaringan sosial .",
+            "role": "Web Developer biasanya membuat mulai dari tampilan website yang sudah di design oleh designer, layouting artinya memposisikan bagian elemen di suatu tempat ke tempat lain, setelah itu membuat sistem agar data bisa di proses dan membuat sebuah database untuk menyimpan data yang didapat dari user",
+            "tempat": "Web Developer bekerja didalam ruangan karena pekerjaan nya ada didalam komputer dan harus tenang karena Web Developer adalah seorang programmer membutuhkan ketenangan agar fokus, seperti di Tokopedia, Bukalapak, Shopee, dan Perusahaan Internet dan Industri lainnya",
+            "rentang": "Rp. 4.000.000 - Rp. 35.000.000",
             "skill": {
                 "html": [
                     "https://www.youtube.com/playlist?list=PLFIM0718LjIVuONHysfOK0ZtiqUWvrx4F"
@@ -34,9 +34,9 @@ var skill = {
         {
             "nama": "ui designer",
             "deskripsi": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis natus quae distinctio voluptatem neque ad expedita officia. Harum, mollitia aut, quam nostrum perferendis, voluptatum ducimus expedita numquam nihil rerum enim!",
-            "role-pekerjaan": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis corrupti, voluptates consequatur minus repellendus a harum consequuntur distinctio maiores veniam similique commodi natus labore ipsum animi ratione minima odit? Quaerat!",
+            "role": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis corrupti, voluptates consequatur minus repellendus a harum consequuntur distinctio maiores veniam similique commodi natus labore ipsum animi ratione minima odit? Quaerat!",
             "tempat-kerja": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis corrupti, voluptates consequatur minus repellendus a harum consequuntur distinctio maiores veniam similique commodi natus labore ipsum animi ratione minima odit? Quaerat!",
-            "rentang-gaji": "Rp. 4.000.000 - 35.000.000",
+            "rentang-gaji": "Rp. 4.000.000 - Rp. 35.000.000",
             "skill": {
                 "html": [
                     "https://www.youtube.com/playlist?list=PLFIM0718LjIVuONHysfOK0ZtiqUWvrx4F"
@@ -65,9 +65,9 @@ var skill = {
         {
             "nama": "ux designer",
             "deskripsi": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis natus quae distinctio voluptatem neque ad expedita officia. Harum, mollitia aut, quam nostrum perferendis, voluptatum ducimus expedita numquam nihil rerum enim!",
-            "role-pekerjaan": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis corrupti, voluptates consequatur minus repellendus a harum consequuntur distinctio maiores veniam similique commodi natus labore ipsum animi ratione minima odit? Quaerat!",
+            "role": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis corrupti, voluptates consequatur minus repellendus a harum consequuntur distinctio maiores veniam similique commodi natus labore ipsum animi ratione minima odit? Quaerat!",
             "tempat-kerja": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis corrupti, voluptates consequatur minus repellendus a harum consequuntur distinctio maiores veniam similique commodi natus labore ipsum animi ratione minima odit? Quaerat!",
-            "rentang-gaji": "Rp. 4.000.000 - 35.000.000",
+            "rentang-gaji": "Rp. 4.000.000 - Rp. 35.000.000",
             "skill": {
                 "html": [
                     "https://www.youtube.com/playlist?list=PLFIM0718LjIVuONHysfOK0ZtiqUWvrx4F"
@@ -96,9 +96,9 @@ var skill = {
         {
             "nama": "ui ux designer",
             "deskripsi": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis natus quae distinctio voluptatem neque ad expedita officia. Harum, mollitia aut, quam nostrum perferendis, voluptatum ducimus expedita numquam nihil rerum enim!",
-            "role-pekerjaan": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis corrupti, voluptates consequatur minus repellendus a harum consequuntur distinctio maiores veniam similique commodi natus labore ipsum animi ratione minima odit? Quaerat!",
+            "role": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis corrupti, voluptates consequatur minus repellendus a harum consequuntur distinctio maiores veniam similique commodi natus labore ipsum animi ratione minima odit? Quaerat!",
             "tempat-kerja": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis corrupti, voluptates consequatur minus repellendus a harum consequuntur distinctio maiores veniam similique commodi natus labore ipsum animi ratione minima odit? Quaerat!",
-            "rentang-gaji": "Rp. 4.000.000 - 35.000.000",
+            "rentang-gaji": "Rp. 4.000.000 - Rp. 35.000.000",
             "skill": {
                 "html": [
                     "https://www.youtube.com/playlist?list=PLFIM0718LjIVuONHysfOK0ZtiqUWvrx4F"
@@ -127,9 +127,9 @@ var skill = {
         {
             "nama": "graphic designer",
             "deskripsi": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis natus quae distinctio voluptatem neque ad expedita officia. Harum, mollitia aut, quam nostrum perferendis, voluptatum ducimus expedita numquam nihil rerum enim!",
-            "role-pekerjaan": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis corrupti, voluptates consequatur minus repellendus a harum consequuntur distinctio maiores veniam similique commodi natus labore ipsum animi ratione minima odit? Quaerat!",
+            "role": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis corrupti, voluptates consequatur minus repellendus a harum consequuntur distinctio maiores veniam similique commodi natus labore ipsum animi ratione minima odit? Quaerat!",
             "tempat-kerja": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis corrupti, voluptates consequatur minus repellendus a harum consequuntur distinctio maiores veniam similique commodi natus labore ipsum animi ratione minima odit? Quaerat!",
-            "rentang-gaji": "Rp. 4.000.000 - 35.000.000",
+            "rentang-gaji": "Rp. 4.000.000 - Rp. 35.000.000",
             "skill": {
                 "html": [
                     "https://www.youtube.com/playlist?list=PLFIM0718LjIVuONHysfOK0ZtiqUWvrx4F"
@@ -158,9 +158,9 @@ var skill = {
         {
             "nama": "mobile developer",
             "deskripsi": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis natus quae distinctio voluptatem neque ad expedita officia. Harum, mollitia aut, quam nostrum perferendis, voluptatum ducimus expedita numquam nihil rerum enim!",
-            "role-pekerjaan": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis corrupti, voluptates consequatur minus repellendus a harum consequuntur distinctio maiores veniam similique commodi natus labore ipsum animi ratione minima odit? Quaerat!",
+            "role": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis corrupti, voluptates consequatur minus repellendus a harum consequuntur distinctio maiores veniam similique commodi natus labore ipsum animi ratione minima odit? Quaerat!",
             "tempat-kerja": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis corrupti, voluptates consequatur minus repellendus a harum consequuntur distinctio maiores veniam similique commodi natus labore ipsum animi ratione minima odit? Quaerat!",
-            "rentang-gaji": "Rp. 4.000.000 - 35.000.000",
+            "rentang-gaji": "Rp. 4.000.000 - Rp. 35.000.000",
             "skill": {
                 "html": [
                     "https://www.youtube.com/playlist?list=PLFIM0718LjIVuONHysfOK0ZtiqUWvrx4F"
@@ -189,9 +189,9 @@ var skill = {
         {
             "nama": "android developer",
             "deskripsi": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis natus quae distinctio voluptatem neque ad expedita officia. Harum, mollitia aut, quam nostrum perferendis, voluptatum ducimus expedita numquam nihil rerum enim!",
-            "role-pekerjaan": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis corrupti, voluptates consequatur minus repellendus a harum consequuntur distinctio maiores veniam similique commodi natus labore ipsum animi ratione minima odit? Quaerat!",
+            "role": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis corrupti, voluptates consequatur minus repellendus a harum consequuntur distinctio maiores veniam similique commodi natus labore ipsum animi ratione minima odit? Quaerat!",
             "tempat-kerja": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis corrupti, voluptates consequatur minus repellendus a harum consequuntur distinctio maiores veniam similique commodi natus labore ipsum animi ratione minima odit? Quaerat!",
-            "rentang-gaji": "Rp. 4.000.000 - 35.000.000",
+            "rentang-gaji": "Rp. 4.000.000 - Rp. 35.000.000",
             "skill": {
                 "html": [
                     "https://www.youtube.com/playlist?list=PLFIM0718LjIVuONHysfOK0ZtiqUWvrx4F"
@@ -220,9 +220,9 @@ var skill = {
         {
             "nama": "ios developer",
             "deskripsi": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis natus quae distinctio voluptatem neque ad expedita officia. Harum, mollitia aut, quam nostrum perferendis, voluptatum ducimus expedita numquam nihil rerum enim!",
-            "role-pekerjaan": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis corrupti, voluptates consequatur minus repellendus a harum consequuntur distinctio maiores veniam similique commodi natus labore ipsum animi ratione minima odit? Quaerat!",
+            "role": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis corrupti, voluptates consequatur minus repellendus a harum consequuntur distinctio maiores veniam similique commodi natus labore ipsum animi ratione minima odit? Quaerat!",
             "tempat-kerja": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis corrupti, voluptates consequatur minus repellendus a harum consequuntur distinctio maiores veniam similique commodi natus labore ipsum animi ratione minima odit? Quaerat!",
-            "rentang-gaji": "Rp. 4.000.000 - 35.000.000",
+            "rentang-gaji": "Rp. 4.000.000 - Rp. 35.000.000",
             "skill": {
                 "html": [
                     "https://www.youtube.com/playlist?list=PLFIM0718LjIVuONHysfOK0ZtiqUWvrx4F"
@@ -251,9 +251,9 @@ var skill = {
         {
             "nama": "back-end developer",
             "deskripsi": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis natus quae distinctio voluptatem neque ad expedita officia. Harum, mollitia aut, quam nostrum perferendis, voluptatum ducimus expedita numquam nihil rerum enim!",
-            "role-pekerjaan": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis corrupti, voluptates consequatur minus repellendus a harum consequuntur distinctio maiores veniam similique commodi natus labore ipsum animi ratione minima odit? Quaerat!",
+            "role": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis corrupti, voluptates consequatur minus repellendus a harum consequuntur distinctio maiores veniam similique commodi natus labore ipsum animi ratione minima odit? Quaerat!",
             "tempat-kerja": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis corrupti, voluptates consequatur minus repellendus a harum consequuntur distinctio maiores veniam similique commodi natus labore ipsum animi ratione minima odit? Quaerat!",
-            "rentang-gaji": "Rp. 4.000.000 - 35.000.000",
+            "rentang-gaji": "Rp. 4.000.000 - Rp. 35.000.000",
             "skill": {
                 "html": [
                     "https://www.youtube.com/playlist?list=PLFIM0718LjIVuONHysfOK0ZtiqUWvrx4F"
@@ -282,9 +282,9 @@ var skill = {
         {
             "nama": "front-end developer",
             "deskripsi": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis natus quae distinctio voluptatem neque ad expedita officia. Harum, mollitia aut, quam nostrum perferendis, voluptatum ducimus expedita numquam nihil rerum enim!",
-            "role-pekerjaan": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis corrupti, voluptates consequatur minus repellendus a harum consequuntur distinctio maiores veniam similique commodi natus labore ipsum animi ratione minima odit? Quaerat!",
+            "role": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis corrupti, voluptates consequatur minus repellendus a harum consequuntur distinctio maiores veniam similique commodi natus labore ipsum animi ratione minima odit? Quaerat!",
             "tempat-kerja": "Lorem ipsum dolor sit amet consectetur adipisicing elit.Omnis corrupti, voluptates consequatur minus repellendus a harum consequuntur distinctio maiores veniam similique commodi natus labore ipsum animi ratione minima odit? Quaerat!",
-            "rentang-gaji": "Rp. 4.000.000 - 35.000.000",
+            "rentang-gaji": "Rp. 4.000.000 - Rp. 35.000.000",
             "skill": {
                 "html": [
                     "https://www.youtube.com/playlist?list=PLFIM0718LjIVuONHysfOK0ZtiqUWvrx4F"
