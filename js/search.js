@@ -16,7 +16,7 @@ inputSearch.addEventListener("keypress", function (e) {
             for (var i = 0; i < dataSkill.length; i++) {
                 IsiInput = inputSearch.value;
                 if (IsiInput === dataSkill[i].nama) {
-                    nodeSearch.innerHTML = '<div class="col-sm-6 mb-5 mb-sm-5 mb-lg-0 col-lg-4"><div class="card shadow-lg"><img src="' + dataSkill[i].gambar + '" class="card-img-top" alt="..."><div class="card-body"><h5 class="card-title">' + dataSkill[i].nama + '</h5><p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.Hic, animi at blanditiis nam molestiae</p><a href="#" class="btn btn-primary"><i class="fas fa-search"></i> Lihat Detail</a></div></div></div>'
+                    nodeSearch.innerHTML = '<div class="col-sm-6 mb-5 mb-sm-5 mb-lg-0 col-lg-4"><div class="card shadow-lg"><img src="' + dataSkill[i].gambar + '" class="card-img-top" alt="..."><div class="card-body"><h5 class="card-title">' + dataSkill[i].nama + '</h5><p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.Hic, animi at blanditiis nam molestiae</p><a href="job.html" class="btn btn-primary"><i class="fas fa-search"></i> Lihat Detail</a></div></div></div>'
                 }
             }
         } else {
@@ -33,7 +33,7 @@ btnSearch.addEventListener("click", function (e) {
         for (var i = 0; i < dataSkill.length; i++) {
             IsiInput = inputSearch.value;
             if (IsiInput === dataSkill[i].nama) {
-                nodeSearch.innerHTML = '<div class="col-sm-6 mb-5 mb-sm-5 mb-lg-0 col-lg-4"><div class="card shadow-lg"><img src="' + dataSkill[i].gambar + '" class="card-img-top" alt="' + dataSkill[i].nama + '"><div class="card-body"><h5 class="card-title">' + dataSkill[i].nama + '</h5><p class="card-text">' + dataSkill[i].deskripsi + '</p><a href="#!" class="btn btn-primary"><i class="fas fa-search"></i> Lihat Detail</a></div></div></div>'
+                nodeSearch.innerHTML = '<div class="col-sm-6 mb-5 mb-sm-5 mb-lg-0 col-lg-4"><div class="card shadow-lg"><img src="' + dataSkill[i].gambar + '" class="card-img-top" alt="' + dataSkill[i].nama + '"><div class="card-body"><h5 class="card-title">' + dataSkill[i].nama + '</h5><p class="card-text">' + dataSkill[i].deskripsi + '</p><a href="job.html" class="btn btn-primary"><i class="fas fa-search"></i> Lihat Detail</a></div></div></div>'
             }
         }
     } else {
