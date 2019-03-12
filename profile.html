@@ -73,17 +73,19 @@
         </div>
         <div class="container my-5">
             <div class="row justify-content-center">
-                <div class="col-xl-3 col-lg-4 col-md-6 mb-5 mb-md-0">
+                <div class="col-lg-4 col-md-6 mb-5 mb-md-0">
                     <div class="card border-0">
-                        <img src="https://via.placeholder.com/150" class="card-img-top rounded-circle shadow-sm img-thumbnail" alt="Aden Rahmandi">
+                        <img src="https://via.placeholder.com/150" class="card-img-top rounded-circle shadow-sm img-thumbnail w-75 mx-auto" alt="Aden Rahmandi" id="FotoProfile">
                         <div class="card-body">
-                          <h4 class="card-title">Aden Rahmandi <i class="far fa-check-circle" title="Verified User"></i></h4>
-                          <p class="card-text"><span class="badge badge-primary">Status</span> Pelajar</p>
+                          <h4 class="card-title" id="namaProfile">Aden Rahmandi <i class="far fa-check-circle" title="Verified User"></i></h4>
+                          <p class="card-text" id="emailProfile">adenrahmandi@email.com</p>
+                          <p class="card-text" id="telpProfile">082258216095</p>
+                          <p class="card-text" id="statusProfile"><span class="badge badge-primary">Status</span> Pelajar</p>
                           <a href="#" class="btn btn-primary btn-block"><i class="fas fa-edit"></i> Edit Profile</a>
                         </div>
                       </div>
                 </div>
-                <div class="col-xl-8 col-lg-7 offset-lg-1 col-md-12">
+                <div class="col-lg-8 col-md-12">
                     <div class="card">
                         <div class="row p-4">
                             <div class="col-12">
@@ -105,7 +107,7 @@
                             <div class="col-12">
                                 <div class="tab-content" id="pills-tabContent">
                                     <div class="tab-pane fade show active" id="pills-skill" role="tabpanel" aria-labelledby="pills-skill-tab">
-                                        <div class="wrapper-item pb-4 py-3">
+                                        <div class="wrapper-item pb-4 py-3" id="wrapperSkill">
                                             <div class="items my-3">
                                                 <h5>HTML</h5>
                                                 <div class="progress" style="height: 25px;">
@@ -130,8 +132,41 @@
                                                     <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
                                                 </div>
                                             </div>
-                                            <button type="submit" class="btn btn-success btn-block mt-5 py-3"><i class="fas fa-plus pr-1"></i> Tambah Skill</button>
                                         </div>
+                                        <button type="submit" class="btn btn-success btn-block mt-1 py-3" id="btnTambahSkill" data-toggle="modal" data-target="#tambahSkill"><i class="fas fa-plus pr-1"></i> Tambah Skill</button>
+                                        
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="tambahSkill" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalCenterTitle">Tambah Skill</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true" id="btnClose">&times;</span>
+                                                    </button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                            <div class="alert alert-danger w-100" role="alert" id="errorSkill">
+                                                                    Mohon Maaf, Data Harus diisi!
+                                                                    </div>
+                                                        <div class="form-group">
+                                                            <label for="">Nama </label>
+                                                            <input type="text" class="form-control" placeholder="Masukan Nama Skill" id="inputNamaSkill">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="">Persen (0-100) </label>
+                                                            <input type="number" maxlength="3" max="3" class="form-control" placeholder="Masukan Penguasaan Skill" id="inputPersenSkill">
+                                                        </div>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                    
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal" id="keluarButton">Keluar</button>
+                                                    <button type="button" class="btn btn-primary" id="btnSimpanSkill">Simpan</button>
+                                                    </div>
+                                                </div>
+                                                </div>
+                                            </div>
+
                                     </div>
                                     <div class="tab-pane fade" id="pills-history" role="tabpanel" aria-labelledby="pills-profile-tab">
                                             <div class="card">
@@ -158,6 +193,9 @@
                                     </div>
                                     <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
                                         <form>
+                                            <div class="alert alert-danger" role="alert" id="errorProfile">
+                                                Mohon Maaf, Data Harus di Isi!
+                                            </div>
                                             <div class="form-row">
                                                 <div class="form-group col-md-6">
                                                     <label for="namalengkap">Nama Lengkap</label>
@@ -170,8 +208,8 @@
                                             </div>
                                             <div class="form-row">
                                                 <div class="form-group col-md-6">
-                                                    <label for="inputEmail4">Alamat Email</label>
-                                                    <input type="email" class="form-control" id="inputEmail4" placeholder="Masukan Email">
+                                                    <label for="emailsaya">Alamat Email</label>
+                                                    <input type="email" class="form-control" id="emailsaya" placeholder="Masukan Email">
                                                 </div>
                                                 <div class="form-group col-md-6">
                                                     <label for="inputPassword4">Password</label>
@@ -186,13 +224,13 @@
                                                 <div class="form-group col-md-6">
                                                     <label for="inputCity">Foto Profile</label>
                                                     <div class="custom-file">
-                                                        <input type="file" class="custom-file-input" id="customFile">
-                                                        <label class="custom-file-label" for="customFile">Pilih File</label>
+                                                        <input type="file" class="custom-file-input" id="inputFotoProfile">
+                                                        <label class="custom-file-label" for="inputFotoProfile">Pilih File</label>
                                                     </div>
                                                 </div>
                                                 <div class="form-group col-md-6">
-                                                    <label for="inputState">Status</label>
-                                                    <select id="inputState" class="form-control">
+                                                    <label for="statusProfileSaya">Status</label>
+                                                    <select id="statusProfileSaya" class="form-control">
                                                     <option selected>-- Pilih --</option>
                                                     <option>Pelajar</option>
                                                     <option>Pekerja</option>
@@ -200,7 +238,7 @@
                                                     </select>
                                                 </div>
                                             </div>
-                                            <button type="submit" class="btn btn-primary btn-block mt-3 py-3">Simpan</button>
+                                            <a href="#!" type="submit" class="btn btn-primary btn-block mt-3 py-3" id="simpanProfile">Simpan</a>
                                         </form>
                                     </div>
                                 </div>
@@ -219,6 +257,9 @@
             </div>
         </div>
     </div>
+
+    <script src="js/skill.js"></script>
+    <script src="js/profile.js"></script>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
