@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+
+/* for logo */
+
+.title-logo {
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+    text-shadow: 0 5px 5px rgba(0, 0, 0, 0.342);
+    position: relative;
+    z-index: 3;;
+}
+
+.title-logo::before {
+    content: "";
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #f8bf2b;
+    position: absolute;
+    top: 5px;
+    left: -5px;
+    z-index: -3;
+}
+
+
+/* Responsive Nav Profile */
+
+
+@media (max-width: 576px){
+    .responsive-nav {
+        display: -webkit-box;
+        overflow-x: auto;
+        padding-bottom: 15px;
+    }
+}
