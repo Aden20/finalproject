@@ -64,7 +64,7 @@ errorProfile.style.display = "none";
 simpanProfile.addEventListener("click", function(){
     if(inputNamaLengkap.value !== "" && inputEmailSaya.value !== "" && inputNoTelp.value !== "" && inputStatus.value !== "-- Pilih --"){
         if(errorProfile.style.display !== "block"){
-            FotoProfile.src = "/img/" + inputFotoProfile.files.name;
+            FotoProfile.src = "/img/" + inputFotoProfile.files[0].name;
 
             namaProfile.innerHTML = inputNamaLengkap.value;
             emailProfile.innerHTML = inputEmailSaya.value;
@@ -72,9 +72,9 @@ simpanProfile.addEventListener("click", function(){
             if(inputStatus.value === "Pelajar"){
                 statusProfile.innerHTML = '<span class="badge badge-primary">Status</span>' + ' Pelajar';
             }else if(inputStatus.value === "Pekerja"){
-                statusProfile.innerHTML = '<span class="badge badge-primary">Status</span>' + ' Pekerja';
+                statusProfile.innerHTML = '<span class="badge badge-warning">Status</span>' + ' Pekerja';
             }else if(inputStatus.value === "Pengangguran"){
-                statusProfile.innerHTML = '<span class="badge badge-primary">Status</span>' + ' Pengangguran';
+                statusProfile.innerHTML = '<span class="badge badge-danger">Status</span>' + ' Pengangguran';
             }
         }else{
             errorProfile.style.display = "none";
